@@ -1,0 +1,117 @@
+section , body{
+    background-color: #eee;
+}
+.login{
+    background-color: #2e2f30;
+    height: 70%;
+}
+h1,h2,h3,h4,h5,h6,p,button span,a{
+    font-family: sans-serif;
+}
+.login h1{
+    color: #eee;
+}
+input::placeholder{
+    color: #B6B6B6;
+}
+#mailinput,#maillogin:focus{
+    border-color: lightskyblue !important;
+    outline: none !important;
+}
+#passinput,#passlogin:focus{
+    border-color: lightskyblue !important;
+    outline: none !important;
+}
+#nameinput:focus{
+    border-color: lightskyblue !important;
+    outline: none !important;
+}
+input{
+    color: white !important;
+}
+.login button{
+    border-color: #17A2B8;
+    color: #17A2B8;
+}
+.login{
+    border: 2px solid transparent;
+    width: 55%;
+    position: absolute;
+    left: 22.5%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+    padding-bottom: 40px;
+}
+.login input , button{
+    width: 90% !important;
+}
+.login a:hover{
+    text-decoration: underline !important;
+}
+.login button:hover{
+    color: white !important;
+    background-color: #17A2B8 !important;
+}
+nav{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+}
+#welcome{
+    position: absolute;
+    top: 35%;
+}
+#out:hover{
+    background-color: #FFC107 !important;
+    color: white !important;
+}
+@media (max-width:760px) {
+    .login{
+        width: 70% !important;
+        position: absolute;
+        left: 15%;
+    }
+    #welcome{
+        width: 70% !important;
+        position: absolute;
+        left: 15%;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+     font-family: "Roboto", sans-serif;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    position: fixed !important;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 999;
+}
+#bg_img{
+   background-image: url(../images/bg_2.avif);
+   background-position: center;
+   background-size: cover;
+}
+.nav-link{
+    color: #eee;
+}
+#bg_img p{
+    position: absolute;
+    top: 60%;
+    filter: drop-shadow(-20px 20px 10px rgb(0, 0, 0));
+}
+#bg_img h1{
+    filter: drop-shadow(-20px 20px 10px rgb(0, 0, 0));
+}
+.card{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    height: 95% !important;
+    transition: all 0.5s ease-in-out;
+}
+.section_name,.header_text{
+    font-family: "Patrick Hand", cursive;
+    font-size: 80px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
