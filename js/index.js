@@ -74,3 +74,5 @@ function exist(){
         }
 }
 
+
+document.getElementById("username").innerHTML = InputName
